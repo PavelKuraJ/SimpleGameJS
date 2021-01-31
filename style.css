@@ -18,9 +18,9 @@
     background-image: url(img/cactus.png);
     background-size: 20px 40px;
     position: relative;
-    top: 110px;
+    top: 100px;
     left: 580px;
-    animation: cactusMov 2s infinite linear;  /* бесконечное ускорение анимации */
+    animation: cactusMov 1s infinite linear;  /* бесконечное ускорение анимации */
 }
 @keyframes cactusMov {
     0% {
@@ -31,20 +31,20 @@
     }
 }
 .jump {
-    animation: jump 1s linear;
+    animation: jump 0.3s linear;
 }
 @keyframes jump {
     0% {
         top: 150px;
     }
-    30% {
-        top: 130px;
+    25% {
+        top: 100px;
     }
     50% {
-        top: 80px;
+        top: 50px;
     }
-    80% {
-        top: 130px;
+    75% {
+        top: 100px;
     }
     100% {
         top: 150px;
